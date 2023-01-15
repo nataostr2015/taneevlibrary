@@ -1,12 +1,28 @@
-const menuWrapper = document.querySelector('menu-wrapper');
+
+'use strict';
+
+
 const menuButton = document.querySelector('.menu__button');
 const menuList = document.querySelector('.site-menu')
 
-function showMenu () {
-    menuList.classList.toggle('hide');
+function showMenu() {
+    menuList.classList.toggle('visible');
 }
 
-menuButton.addEventListener('click', showmenu);
+menuButton.addEventListener('click', showMenu);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
