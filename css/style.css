@@ -872,6 +872,71 @@ li:hover ul {
 
 }
 
+/* history */
+
+.history {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.history__heading {
+  display: block;
+  margin: 0 auto;
+  max-width: 380px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 30px;
+  word-break: break-all;
+ 
+  text-transform: uppercase;
+  color: #4682b4;
+
+}
+
+
+.history__items {
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+
+  
+
+}
+
+.history__item {
+  max-width: 320px;
+  background-color:#4682b4;  
+  margin: 0 auto;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  vertical-align: middle;
+  text-align: center;
+  list-style: none;  
+}
+
+.history__image {
+  margin: 30px;  
+  margin-bottom: 5px;
+}
+
+.history__image-title {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+
+}
+
 
 
 .footer {
