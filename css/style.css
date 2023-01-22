@@ -120,10 +120,6 @@ body {
   background-color: #4682b4;
 }
 
-.hide {
-  display: none;
-}
-
 .site-menu {
   display: flex;
   flex-wrap: wrap;
@@ -227,19 +223,20 @@ li:hover ul {
   }
 
   .site-menu {
+    position: absolute;
     display: none;
-    width: 100%;
+    width: 50%;
     margin-top: 0;
     padding: 0;
+    background-color:#4682b4;
     justify-content: center;
     align-items: center;
     align-self: center;
   }
 
-  
-    
-
-
+  .visible {
+    display: block;
+  }
 
   .menu__item {
     margin: 0 auto;
@@ -256,6 +253,12 @@ li:hover ul {
     color: #4682b4;
     background-color: #fff;
     border: 2px solid #4682b4;
+  }
+
+  .site-submenu {
+    
+    margin-left: 100%;
+    margin-top: -54px;
   }
 
   .submenu__item {
@@ -744,11 +747,7 @@ li:hover ul {
 
   .newbooks__item:hover {
     margin-bottom: 300px;
-  }
-
-  .visible {
-    display: block;
-  }
+  }  
 }
 
 
