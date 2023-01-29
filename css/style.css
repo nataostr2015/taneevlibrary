@@ -878,20 +878,26 @@ li:hover ul {
   max-width: 1300px;
   margin: 0 auto;
   margin-top: 20px;
+  background-image: url(../img/library/cream-1.jpg);
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
 
+.line {
+  height: 5px;
+  background-color: #4682b4;;
 }
 
 .history__heading {
   display: block;
   margin: 0 auto;
   max-width: 380px;
-  margin-top: 40px;
-  padding-bottom: 20px;
+  
+  
   font-family: 'Open Sans';
   font-weight: 800;
   font-size: 30px;
-  word-break: break-all;
- 
+  word-break: break-all; 
   text-transform: uppercase;
   color: #4682b4;
 
@@ -900,24 +906,22 @@ li:hover ul {
 
 .history__items {
   margin: 0 auto;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 29px;
   margin-bottom: 20px;
+  padding-left: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-between;
-
+  background-color:#4682b4; 
   
 
 }
 
 .history__item {
   max-width: 320px;
+  min-height: 400px;
   background-color:#4682b4;  
-  margin: 0 auto;
+  margin: 0 auto;  
   padding-bottom: 10px;
-  margin-top: 20px;
   vertical-align: middle;
   text-align: center;
   list-style: none;  
@@ -935,6 +939,10 @@ li:hover ul {
   color: #fff;
   margin-bottom: 20px;
 
+}
+
+.history__link {
+  text-decoration: none;
 }
 
 
