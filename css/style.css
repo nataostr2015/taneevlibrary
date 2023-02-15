@@ -508,12 +508,13 @@ li:hover ul {
 }
 
 .resource__learn {
-  max-width: 600px;
+  max-width: 640px;
   display: flex;
   margin-top: 0;
   margin-left: 20px;
-  justify-content: space-between;
-
+  margin-right: 20px;
+  padding-right: 30px;
+  justify-content:left
 }
 
 .resource__learn_teacher {
@@ -555,14 +556,19 @@ li:hover ul {
   margin-top: 0;
 }
 
-.resource__map {
-  margin-top: 10px;
+.partner {
+  display: flex;
+  gap: 120px;
+  max-width: 600px;
+  
   margin-left: 20px;
-  margin-right: 45px;
-  box-sizing: border-box;
-  object-fit: contain;
+  padding-right: 20px;
+  justify-content: space-between ;
+  }
 
-}
+  .partner__item {
+    padding-top: 20px;
+  }
 
 @media screen and (max-width: 650px) {
   .resource__map {
@@ -684,11 +690,40 @@ li:hover ul {
 
 .newbooks {
   margin: 0 auto;
+  margin-bottom: 280px;
 }
 
 .newbooks__heading {
   padding-left: 310px;
+  display: block;
+  max-width: 300px;  
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 40px;
+  color: #4682b4;
 }
+
+.newbooks__heading-2 {
+  padding-left: 310px;
+  display: block;
+  max-width: 300px;  
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 30px;
+  color: #4682b4;
+}
+
+.newbooks__heading-3 {
+  padding-left: 310px;
+  display: block;
+  max-width: 300px;  
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 25px;
+  color: #000;;
+
+}
+
 
 .newbooks__items {
   display: flex;
@@ -698,8 +733,8 @@ li:hover ul {
   padding-right: 10px;
   padding-top: 20px;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 280px;
+  margin-top: 10px;
+  
 }
 
 .newbooks__item span {
@@ -715,23 +750,22 @@ li:hover ul {
 }
 
 .newbooks__item {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .newbooks__item-title {
-  color: #fff;
+  color: #000;
   width: 240px;
   font-family: Open Sans;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   position: absolute;
-  top: 400px;
-  bottom: -200px;
+  top: 430px;
+  bottom: -220px;
   padding-left: 10px;
   padding-right: 10px;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.5);
-}
+  
 
 @media screen and (max-width: 550px) {
 
