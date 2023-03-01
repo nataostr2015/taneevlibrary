@@ -430,7 +430,7 @@ li:hover ul {
 
 @media screen and (max-width: 800px) {
   .catalog__picture {
-    width: 330px;
+    width: 280px;
   }
 }
 
@@ -528,7 +528,6 @@ li:hover ul {
 
 .resource__learn_teacher {
   display: block;
-
   padding-right: 30px;
 
 }
@@ -536,7 +535,8 @@ li:hover ul {
 .resource__learn_students {
   display: block;
   padding-left: 20px;
-  padding-right: 30px;
+  padding-right: 10px;
+  margin-right: 10px;
 
 }
 
@@ -569,8 +569,7 @@ li:hover ul {
   display: flex;
   flex-wrap: wrap;
   gap: 120px;
-  max-width: 600px;
-  
+  max-width: 600px;  
   margin-left: 20px;
   padding-right: 20px;
   justify-content: space-between ;
@@ -583,12 +582,14 @@ li:hover ul {
 @media screen and (max-width: 650px) {
   .partner {
     gap: 20px;
+    
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .resource__learn {
     flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 
@@ -703,14 +704,13 @@ li:hover ul {
   max-width: 1300px;
   margin: 0 auto;
   margin-bottom: 280px;
+  background-color: #c9ced3;
 }
 
 .newbooks__headings {
   max-width: 250px;
   margin: 0 auto;
-  
-  
-}
+ }
 
 .newbooks__heading {
   
@@ -781,17 +781,17 @@ li:hover ul {
 
 .newbooks__item-title {
   color: #000;
-  width: 240px;
+  width: 250px;
   font-family: Open Sans;
   font-size: 14px;
   font-weight: 500;
   position: absolute;
   top: 430px;
   bottom: -220px;
-  padding-left: 10px;
+  background-color: #c9ced3;
+  padding-left: 20px; 
   padding-right: 10px;
-  z-index: 1;
-  
+  z-index: 1;  
 }
 
 @media screen and (max-width: 1000px) {
@@ -801,6 +801,18 @@ li:hover ul {
   }
   
 }
+
+@media screen and (max-width: 600px) {
+
+  .newbooks__headings {
+    max-width: 150px;
+    margin-right: 10px;
+
+  }
+  
+}
+
+
 
 @media screen and (max-width: 550px) {
 
