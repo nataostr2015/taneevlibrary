@@ -846,12 +846,14 @@ li:hover ul {
   margin: 20px;
   padding: 20px;
   text-align: justify;
+  
 }
 
 .about-library__text {
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 20px;
+  list-style: none;
 
 }
 
@@ -1040,6 +1042,127 @@ li:hover ul {
   text-decoration: none;
 }
 
+/* roules */
+
+.roules {
+  border: 1px ridge #b9b9b9;
+  background-image:   url(http://img-fotki.yandex.ru/get/6515/128617080.160/0_99664_a3c4e07b_S.jpg);  
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.roules__border {
+  border: 0px none #000000;
+  background-image: url(http://img-fotki.yandex.ru/get/5006/nata-komiati.8f/0_5da69_8b4ee1ca_S.jpg);
+  width: 97%;
+}
+
+
+
+.roules__border-1 {
+  border: 0px none #000000;
+  background-image: url(http://img-fotki.yandex.ru/get/6515/128617080.160/0_99664_a3c4e07b_S.jpg);
+  }
+
+
+.roules__border-2 {
+  border: 0px none #000000;
+  background-image: url(http://s46.radikal.ru/i114/0812/af/24b2abecead4.gif);
+  width: 93%;
+
+}
+
+
+.roules__border-3 {
+  border: 0px none #000000;
+  background-image: url(http://img-fotki.yandex.ru/get/6515/128617080.160/0_99664_a3c4e07b_S.jpg);
+  }
+
+.roules__border-4 {
+  border: 0px none #000000;
+  background-image: url(http://img-fotki.yandex.ru/get/5006/nata-komiati.8f/0_5da69_8b4ee1ca_S.jpg);
+  width: 90%;
+}
+
+
+.roules__border-5 {
+  border: 0px none #000000;
+  background-image: url(http://img-fotki.yandex.ru/get/6515/128617080.160/0_99664_a3c4e07b_S.jpg);
+}
+
+.roules__border-6 {
+  border: 1px ridge #b9b9b9;
+  background-image: url(http://img-fotki.yandex.ru/get/4407/nimfea180776.c7/0_63639_49098c40_XXS.jpg);
+  width: 803px;
+}
+
+.roules__item {
+  padding: 3px;
+}
+
+.roules__item-border {
+  padding: 10px;
+}
+
+.roules__item-border-1 {
+  padding: 0;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+
+.roules__item-border-2 {
+  padding: 40px;
+}
+
+.news {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.news__itens {
+  text-align: left;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 15px;
+
+}
+.news-item {
+  text-align: left;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .roules__border-6 {
+    max-width: 600px;
+  }
+
+  
+}
+
+@media screen and (max-width: 800px) {
+  .roules__border-6 {
+    max-width: 400px;
+  }
+
+  
+}
+
+@media screen and (max-width: 600px) {
+  .roules__border-6 {
+    max-width: 200px;
+  }
+
+  
+}
 
 
 .footer {
