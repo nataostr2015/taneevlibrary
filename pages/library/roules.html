@@ -1,174 +1,497 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/style.css">
-    <script defer src="../../js/popup-menu.js"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script defer src="../../js/popup-menu.js"></script>
+  <title>Document</title>
 </head>
 <div class="container">
   <header class="header">
-      <img class= "logo" width=100% src="../../img/header.png">
-      <button class="menu__button"></button>
-     <div class="nav">
+    <img class="logo" width=100% src="../../img/header.png">
+    <button class="menu__button"></button>
+    <div class="nav">
       <ul class="site-menu">
         <li class="menu__item"><a class=" menu__link" href="../../index.html">Главная</a></li>
         <li class="menu__item"><a class="menu__link menu__link_active" href="library.html">О библиотеке</a>
-        
+
           <ul class="site-submenu">
-            <li class="submenu__item"><a class="submenu__link" href=
-              "../../pages/library/history.html">
-              История<br>библиотеки</a></li>
-          <li class="submenu__item"><a class="submenu__link" 
-            href="../library/presents.html">
-            О дарах<br>и дарителях</a></li>
-          <li class="submenu__item"><a class="submenu__link" href="../../pages/library/today.html">Библиотека<br>сегодня</a></li>
-          <li class="submenu__item"><a class="submenu__link" href="#">Структура<br>библиотеки</a></li>
-          <li class="submenu__item"><a class="submenu__link" href="#">Правила<br>пользования</a></li>
-          <li class="submenu__item"><a class="submenu__link" href="#">Услуги</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="../../pages/library/history.html">
+                История<br>библиотеки</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="../library/presents.html">
+                О дарах<br>и дарителях</a></li>
+            <li class="submenu__item"><a class="submenu__link"
+                href="../../pages/library/today.html">Библиотека<br>сегодня</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="#">Структура<br>библиотеки</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="#">Правила<br>пользования</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="#">Услуги</a></li>
           </ul>
-        </li>    
-        
-        
+        </li>
+
+
         </li>
         <li class="menu__item"><a class="menu__link" href="#">С.И. Танеев</a>
           <ul class="site-submenu">
-            <li class="submenu__item"><a class="submenu__link" href=
-              "№" target="_blank">
-              Статьи<br>о Танееве</a></li>
-          <li class="submenu__item"><a class="submenu__link" 
-            href="№">
-            Танеевские<br>ссылки</a></li>
-          <li class="submenu__item"><a class="submenu__link" href="#">Памяти<br>Танеева</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="№" target="_blank">
+                Статьи<br>о Танееве</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="№">
+                Танеевские<br>ссылки</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="#">Памяти<br>Танеева</a></li>
           </ul>
         </li>
-        
-        
+
+
         </li>
         <li class="menu__item"><a class="menu__link" href="../resource/resource.html">Ресурсы</a>
-        
-          <ul class="site-submenu">
-            <li class="submenu__item"><a class="submenu__link" href=
-              "http://lib.mosconsv.ru/cgi-bin/fccgi.exe?w3exec=conslib.w3.reader.ecat&appid=200903446000" target="_blank">
-              Электронный<br>каталог</a></li>
-          <li class="submenu__item"><a class="submenu__link" 
-            href="../resource/books.html">
-            Новые<br>поступления</a></li>
-            <li class="submenu__item"><a class="submenu__link" href="../resource/exhibitions.html">Выставки</a></li>
-          <li class="submenu__item"><a class="submenu__link" href="#">Публикации<br>сотрудников</a></li>
-          </ul>
-          
-          
-          </li>
 
-        
+          <ul class="site-submenu">
+            <li class="submenu__item"><a class="submenu__link"
+                href="http://lib.mosconsv.ru/cgi-bin/fccgi.exe?w3exec=conslib.w3.reader.ecat&appid=200903446000"
+                target="_blank">
+                Электронный<br>каталог</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="../resource/books.html">
+                Новые<br>поступления</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="../resource/exhibitions.html">Выставки</a></li>
+            <li class="submenu__item"><a class="submenu__link" href="#">Публикации<br>сотрудников</a></li>
+          </ul>
+
+
+        </li>
+
+
         <li class="menu__item"><a class="menu__link" href="../conferense/conferense.html">Конференции</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>   
+        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
       </ul>
     </div>
-    </header>
-  </div>
+  </header>
+</div>
+
 <body>
   <main class="main">
 
     <table class="roules">
-    
-      <tbody> 
-        <tr><td class="roules__item"> 	 
+
+      <tbody>
+        <tr>
+          <td class="roules__item">
             <table class="roules__border">
-              <tbody> 
-                <tr><td class="roules__item-border"> 		 
+              <tbody>
+                <tr>
+                  <td class="roules__item-border">
                     <table class="roules__border-1">
-                      <tbody> 
-                        <tr><td class="roules__item"> 			 
-                            <table class="roules__border-2"> 
-                              <tbody> 
-                                <tr><td class="roules__item-border-2"> 				 
-                                    <table class="roules__border-3"> 
-                                      <tbody> 
-                                        <tr><td class="roules__item-border-1"> 					 
-                                            <table class="roules__border-4"> 
-                                              <tbody> 
-                                                <tr><td class="roules__item-border"> 
-                                                    <table class="roules__border-5"> 
-                                                      <tbody> 
-                                                        <tr><td class="roules__item-border-1"> 						 
-                                                            <table class="roules__border-6"> 
-                                                              <tbody> 
-                                                                <tr><td class="roules__item-border-1"> 
-                                                                    <p class="news"><b>Выписка из Правил пользования Научной музыкальной библиотекой им. С.И. Танеева Московской Государственной Консерватории&nbsp;</b> 
+                      <tbody>
+                        <tr>
+                          <td class="roules__item">
+                            <table class="roules__border-2">
+                              <tbody>
+                                <tr>
+                                  <td class="roules__item-border-2">
+                                    <table class="roules__border-3">
+                                      <tbody>
+                                        <tr>
+                                          <td class="roules__item-border-1">
+                                            <table class="roules__border-4">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="roules__item-border">
+                                                    <table class="roules__border-5">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="roules__item-border-1">
+                                                            <table class="roules__border-6">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td class="roules__item-border-1">
+                                                                    <p class="news"><b>Выписка из Правил пользования
+                                                                        Научной музыкальной библиотекой им. С.И. Танеева
+                                                                        Московской Государственной
+                                                                        Консерватории&nbsp;</b>
                                                                       <br>
-                                                                     </p>
-                                                                   
-                                                                    <div > 
-                                                                      <ol class="news__itens"> 
-                                                                        <li>Правила пользования библиотекой высшего учебного заведения разработаны в соответствии с Положением о библиотеке высшего учебного заведения и распространяются на библиотеки государственных высших учебных заведений, независимо от их ведомственной подчиненности, в том числе и на Научную музыкальную библиотеку им. И.С. Танеева.</li>
-                                                                       
-                                                                        <li>Правила пользования библиотекой регламентируют общий порядок организации обслуживания читателей Московской консерватории, права и обязанности библиотеки и&nbsp;читателя.&nbsp;&nbsp;</li>
-                                                                       </ol>
-                                                                     </div>
-                                                                   
-                                                                    <p></p> 
-                                                                   
-                                                                    <p class="news-item" ><b>I. Читатели, их права, обязанности и ответственность.</b></a> 
-                                                                      <br>
-                                                                     </p>
-                                                                   
-                                                                    <p class="news-item" ><b>II. Права и обязанности библиотеки.</b></a> 
-                                                                      <br>
-                                                                     </p>
-                                                                   
-                                                                    <p class="news-item"><b>III. Порядок записи читателей в библиотеку.</b></a> 
-                                                                      <br>
-                                                                     </p>
-                                                                   
-                                                                     <p class="news-item"><b>IV. Порядок пользования читальными залами</b></a> 
-                                                                      <br>
-                                                                     </p>
+                                                                    </p>
 
-                                                                     <p class="news-item"><b>V. Правила пользования абонементом и читальным залом.</b></a> 
-                                                                      <br>
-                                                                     </p>
+                                                                    <div>
+                                                                      <ol class="news__items">
+                                                                        <li><strong>Правила пользования библиотекой высшего
+                                                                          учебного заведения разработаны в соответствии
+                                                                          с Положением о библиотеке высшего учебного
+                                                                          заведения и распространяются на библиотеки
+                                                                          государственных высших учебных заведений,
+                                                                          независимо от их ведомственной подчиненности,
+                                                                          в том числе и на Научную музыкальную
+                                                                          библиотеку им. И.С. Танеева.</strong></li>
 
-                                                                     <p class="news-item"><b>VI. Правила пользования информационно-библиографическим отделом</b></a> 
-                                                                      <br>
-                                                                     </p>
+                                                                        <li><strong>Правила пользования библиотекой
+                                                                          регламентируют общий порядок организации
+                                                                          обслуживания читателей Московской
+                                                                          консерватории, права и обязанности библиотеки
+                                                                          и читателя;</strong></li>
+                                                                      </ol>
+                                                                    </div>
 
-                                                                     <p class="news-item"><b>VII. Правила пользования отделом хранения фондов</b></a> 
+                                                                    <p></p>
+
+                                                                    <p class="news-item"><a href="#roule-1"><b>I.
+                                                                          Читатели, их права, обязанности и
+                                                                          ответственность.</b> </a>
                                                                       <br>
-                                                                     </p>
-                                                                     <p class="news-item"><b>VII. Правила пользования отделом хранения фондов</b></a> 
+                                                                    </p>
+
+
+                                                                    <p class="news-item"><a href="#roule-2"><b>II. Права
+                                                                          и обязанности библиотеки.</b> </a>
                                                                       <br>
-                                                                     </p>
-                                                                   
-                                                                    
-                                                                   </td></tr>
-                                                               </tbody>
-                                                             </table>
-                                                           </td></tr>
-                                                       </tbody>
-                                                     </table>
-                                                   </td></tr>
-                                               </tbody>
-                                             </table>
-                                           </td></tr>
-                                       </tbody>
-                                     </table>
-                                   </td></tr>
-                               </tbody>
-                             </table>
-                           </td></tr>
-                       </tbody>
-                     </table>
-                   </td></tr>
-               </tbody>
-             </table>
-           </td></tr>
-       </tbody>
-     </table>
-    
+                                                                    </p>
+
+                                                                    <p class="news-item"><a href="#roule-3"><b>III.
+                                                                          Порядок записи читателей в библиотеку.</b>
+                                                                      </a>
+                                                                      <br>
+                                                                    </p>
+
+                                                                    <p class="news-item"><a href="#roule-4"><b>IV.
+                                                                          Порядок пользования читальными залами</b></a>
+                                                                      <br>
+                                                                    </p>
+
+                                                                    <p class="news-item"><a href="#roule-5"><b>V.
+                                                                          Правила пользования абонементом и читальным
+                                                                          залом.</b> </a>
+                                                                      <br>
+                                                                    </p>
+
+                                                                    <p class="news-item"><a href="#roule-6"><b>VI.
+                                                                          Правила пользования
+                                                                          информационно-библиографическим
+                                                                          отделом</b></a>
+                                                                      <br>
+                                                                    </p>
+
+                                                                    <p class="news-item"><a href="#roule-7"><b>VII.
+                                                                          Правила пользования отделом хранения
+                                                                          фондов</b> </a>
+                                                                      <br>
+                                                                    </p>
+
+
+                                                                    <p class="news-item" id="roule-1"><b>Читатели, их
+                                                                        права, обязанности и ответственность.</b>
+                                                                      <br>
+                                                                    </p>
+
+                                                                    <ol class="news__items">
+                                                                      <p class="news__items" id="roule-1"><b>Студенты,
+                                                                          аспиранты, профессорско-преподавательский
+                                                                          состав, сотрудники вуза имеют право бесплатно
+                                                                          пользоваться основными видами
+                                                                          библиотечно-информационных услуг:</b>
+                                                                        <br>
+                                                                      </p>
+                                                                      <li>Получать полную информацию о составе фондов
+                                                                        библиотеки через систему каталогов и картотек и
+                                                                        другие формы библиотечного информирования.</li>
+
+                                                                      <li>Получать из фонда библиотеки для временного
+                                                                        пользования в читальных залах и на абонементе
+                                                                        любые издания; </li>
+
+                                                                      <li>Получать консультационную помощь в поиске и
+                                                                        выборе произведений печати и других документов;
+                                                                      </li>
+
+                                                                      <li>Получать информацию через электронный каталог
+                                                                        и справочно-информационные компьютерные системы;
+                                                                      </li>
+
+                                                                      <li>Продлевать срок пользования литературой в
+                                                                        установленном порядке;</li>
+                                                                    </ol>
+                                                                    <ol class="news__items">
+                                                                      <p class="news__items" id="roule-1"><b>Читатели
+                                                                          обязаны:</b>
+                                                                        <br>
+                                                                      </p>
+                                                                      <li>Бережно относиться к книгам, другим
+                                                                        произведениям печати и иным материалам,
+                                                                        полученным из фондов библиотеки; возвращать их в
+                                                                        установленные сроки; не выносить их из помещения
+                                                                        библиотеки, если они не записаны в читательском
+                                                                        формуляре или других учетных документах; не
+                                                                        делать в них пометок, подчеркиваний, не вырывать
+                                                                        и не загибать страниц; не вынимать карточек из
+                                                                        каталогов и картотек;</li>
+
+                                                                      <li>Читатели не имеют право передавать
+                                                                        читательский билет другому лицу, а также
+                                                                        пользоваться чужим читательским билетом. В
+                                                                        случае нарушения этого правила читатели несут
+                                                                        ответственность в порядке, установленном
+                                                                        заведующим библиотекой; </li>
+
+                                                                      <li>При выбытии из вуза читатели обязаны вернуть в
+                                                                        библиотеку числящиеся за ними издания и сдать
+                                                                        читательский билет;
+                                                                      </li>
+
+                                                                      <li>Читатели обязаны соблюдать правила пользования
+                                                                        библиотекой. Читатели, нарушившие правила
+                                                                        пользования библиотекой или причинившие
+                                                                        библиотеке ущерб, компенсируют его в размере,
+                                                                        установленном заведующим библиотекой и
+                                                                        администрацией вуза, а также несут иную
+                                                                        ответственность в случаях, предусмотренных
+                                                                        действующим законодательством;
+                                                                      </li>
+
+                                                                      <li>Читатели, ответственные за утрату или
+                                                                        неумышленную порчу изданий, обязаны заменить их
+                                                                        такими же изданиями, или признанными библиотекой
+                                                                        равноценными, а при невозможности замены –
+                                                                        возместить рыночную стоимость. Читатели,
+                                                                        ответственные за умышленную порчу книг (в
+                                                                        частности, вырывание страниц), возмещают прямой
+                                                                        ущерб или 10-кратную стоимость испорченной книги
+                                                                        и лишаются права пользования библиотекой на
+                                                                        сроки, определенные администрацией вуза;</li>
+                                                                    </ol>
+
+
+
+                                                                    <p class="news-item" id="roule-2"><b>Права и
+                                                                        обязанности библиотеки.</b>
+                                                                      <br>
+                                                                    </p>
+                                                                    <ol class="news__items">
+                                                                      <li>Библиотека в своей деятельности обеспечивает
+                                                                        реализацию прав читателей, установленных в
+                                                                        разделе I;</li>
+                                                                      <li>Библиотека обслуживает читателей в
+                                                                        соответствии с Положением о библиотеке высшего
+                                                                        учебного заведения и правилами пользования;</li>
+
+                                                                      <li>Библиотека обязана:
+                                                                        <ul circle class="news__items">
+                                                                          <li>информировать читателей о всех видах
+                                                                            предоставляемых библиотекой услуг;</li>
+
+                                                                          <li>обеспечить читателям возможность
+                                                                            пользоваться всеми фондами библиотеки; </li>
+                                                                          <li>популяризировать свои фонды и
+                                                                            предоставляемые услуги; </li>
+                                                                          <li>совершенствовать библиотечное и
+                                                                            информационно-библиографическое обслуживание
+                                                                            читателей, внедряя компьютеризацию и
+                                                                            передовую технологию; </li>
+                                                                          <li>обеспечивать высокую культуру
+                                                                            обслуживания; </li>
+                                                                          <li>оказывать читателям помощь в выборе
+                                                                            необходимых произведений печати и иных
+                                                                            материалов, </li>
+                                                                          <ul square class="news__items">
+                                                                            <li>проводя занятия по основам
+                                                                              библиотечно-библиографических знаний,</li>
+
+                                                                            <li>устные консультации, </li>
+                                                                            <li>предоставляя в их пользование каталоги и
+                                                                              картотеки и иные формы информирования,
+                                                                            </li>
+                                                                            <li>организуя книжные и нотные выставки,
+                                                                            </li>
+                                                                            <li>библиографические обзоры,</li>
+                                                                            <li>дни кафедр, </li>
+                                                                            <li>дни информации, </li>
+
+                                                                            <li>и другие мероприятия; </li>
+                                                                          </ul>
+
+                                                                          <li>осуществлять постоянный контроль за
+                                                                            возвращением в библиотеку выданных книг,
+                                                                            нот, других произведений печати и иных
+                                                                            материалов; </li>
+                                                                          <li>создавать и поддерживать в библиотеке
+                                                                            комфортные условия для работы читателей;
+                                                                          </li>
+                                                                        </ul>
+                                                                      </li>
+                                                                    </ol>
+
+                                                                    <p class="news-item" id="roule-3"><b>Порядок записи
+                                                                        читателей в библиотеку.</b>
+                                                                      <br>
+                                                                    </p>
+                                                                    <ol class="news__itens">
+                                                                      <li>Для записи в библиотеку читатели обязаны
+                                                                        предъявить паспорт, студенческий билет,
+                                                                        фотографию.
+                                                                        Для служащих: удостоверение личности и
+                                                                        фотографию. <br>
+                                                                        На этом основании им выдаётся единый
+                                                                        читательский билет, заполняется читательский
+                                                                        абонемент. Читательский билет является
+                                                                        единственным документом, дающим право
+                                                                        пользования библиотекой;</li>
+
+                                                                      <li>При записи в библиотеку читатели должны
+                                                                        ознакомиться с правилами пользования и
+                                                                        подтвердить обязательство об их выполнении своей
+                                                                        подписью на читательском билете и читательском
+                                                                        абонементе;</li>
+                                                                    </ol>
+
+
+                                                                    <p class="news-item" id="roule-4"><b>Порядок
+                                                                        пользования читальными залами</b>
+                                                                      <br>
+                                                                    </p>
+                                                                    <ol class="news__itens">
+                                                                      <li>При заказе литературы в читальном зале
+                                                                        читатели предъявляют читательский билет,
+                                                                        заполняют читательской требование и при
+                                                                        получении изданий расписываются на книжном или
+                                                                        нотном формуляре. Книжный формуляр и
+                                                                        читательское требование являются документами,
+                                                                        удостоверяющими дату и факт выдачи читателю и
+                                                                        приема библиотекарем книг и других произведений
+                                                                        печати;</li>
+                                                                      <li>Число нот и книг, других произведений печати и
+                                                                        иных материалов, выдаваемых в читальных залах,
+                                                                        как правило, не ограничивается. При наличии
+                                                                        единовременного повышения спроса числовыдаваемых
+                                                                        экземпляров может быть ограничено (по решению
+                                                                        администрации библиотеки);</li>
+                                                                      <li>Литература, выданная в читальный зал из
+                                                                        основного книгохранилища, может быть
+                                                                        забронирована на определенный срок</li>
+                                                                      <li>Энциклопедии, справочные издания, редкие и
+                                                                        ценные ноты и книги выдаются только в читальном
+                                                                        зале</li>
+                                                                      <li>Выносить литературу из читальных залов
+                                                                        запрещено. В случае нарушения этого правила,
+                                                                        читатели могут быть лишены права пользования
+                                                                        библиотекой на срок, определенный администрацией
+                                                                        библиотеки.</li>
+
+
+
+                                                                    </ol>
+
+                                                                    <p class="news-item" id="roule-5"><b>Правила
+                                                                        пользования абонементом и читальным залом.</b>
+                                                                      <br>
+                                                                    </p>
+                                                                    <ol class="news__itens">
+                                                                      <li>Подробнее с правилами пользования абонементом
+                                                                        и читальным залом библиотеки можно ознакомиться
+                                                                        в отделе обслуживания нотно-музыкальной
+                                                                        литературы.</li>
+
+
+                                                                    </ol>
+
+                                                                    <p class="news-item" id="roule-6"><b>Правила
+                                                                        пользования информационно-библиографическим
+                                                                        отделом</b>
+                                                                      <br>
+                                                                    </p>
+                                                                    <ol class="news__itens">
+                                                                      <li>Фонд отдела располагает библиографической и
+                                                                        фактографической информацией по музыкальной
+                                                                        тематике:
+                                                                        <ul square class="news__items">
+                                                                          <li>дает консультации по поиску в справочном аппарате НМБТ, поиску профильной информации в Интернете,
+                                                                          </li>
+
+                                                                          <li>отвечает на запросы on-line (library@mosconsv.ru).</li>
+                                                                        </ul>
+                                                                      </li>
+
+                                                                      <li>Сложные запросы, библиографические справки и
+                                                                        библиографические списки, требующие значительных
+                                                                        затрат времени, выполняются в режиме платных
+                                                                        услуг (см. Платные услуги);</li>
+                                                                      <li>В отделе возможен поиск информации не только в
+                                                                        справочных изданиях и справочном аппарате НМБТ
+                                                                        (каталогах, картотеках, БД), но и в специальных
+                                                                        фондах:
+                                                                        <ul square class="news__items">
+                                                                          <li>Фонде газетных вырезок,
+                                                                          </li>
+
+                                                                          <li>Фонде концертных программ,</li>
+                                                                          <li>Фонде буклетов музыкальных конкурсов,</li>
+                                                                          <li>Фонде иконографии и др.</li>
+
+                                                                        </ul>
+                                                                      </li>
+                                                                      <li>Все материалы фондрв ИБО НМБТ предоставляются
+                                                                        только в читальном зале ИБО, возможны
+                                                                        копирование, сканирование, фотосъемка (в
+                                                                        соответствии с правилами и прейскурантом) по
+                                                                        согласованию с сотрудниками библиотеки;</li>
+                                                                      <li>Посетители ИБО НМБТ обязаны познакомиться с
+                                                                        Правилами пользования НМБТ МГК и выполнять их.
+                                                                      </li>
+                                                                    </ol>
+
+                                                                    <p class="news-item" id="roule-7"><b> Правила
+                                                                        пользования отделом хранения фондов</b>
+                                                                      <br>
+                                                                    </p>
+                                                                    <ol class="news__itens">
+
+
+                                                                      <li>Комплекты оркестровых голосов выдаются:
+                                                                        <ul square class="news__items">
+                                                                          <li>библиотекарям консерваторских коллективов;
+                                                                          </li>
+
+                                                                          <li>студентам и аспирантам - на экзамен или
+                                                                            мероприятие с учебными целями - на основании
+                                                                            требования за подписью декана.</li>
+                                                                        </ul>
+
+                                                                      </li>
+
+
+                                                                    </ol>
+
+
+
+                                                                  </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
   </main>
 </body>
 <div class="container">
@@ -176,10 +499,11 @@
     <p class="footer__text">При использовании материалов прямая ссылка на сайт www.taneevlibrary.ru обязательна.
       <br>Официальный сайт Научной музыкальной библиотеки им.С.И.Танеева<br>
       © 2010-2017 НМБТ
-      </p>
+    </p>
   </footer>
-  </div>
+</div>
 
-    
+
 </body>
+
 </html>
