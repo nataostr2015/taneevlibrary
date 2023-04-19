@@ -122,8 +122,6 @@ body {
 .logo {
   width: 100%;
 }
-  
-
 
 .site-menu {
   display: flex;
@@ -191,7 +189,6 @@ li:hover ul {
   display: block;
 }
 
-
 .menu__link_active {
   color: #4682b4;
   background-color: #fff;
@@ -218,10 +215,6 @@ li:hover ul {
   border-radius: 5px;
 }
 
-
-
-
-
 @media screen and (max-width: 800px) {
   .menu__button {
     display: block;
@@ -247,7 +240,6 @@ li:hover ul {
     margin: 0 auto;
     width: 100%;
     border: 2px solid #fff;
-
   }
 
   .menu__link {
@@ -260,8 +252,7 @@ li:hover ul {
     border: 2px solid #4682b4;
   }
 
-  .site-submenu {
-    
+  .site-submenu {    
     margin-left: 100%;
     margin-top: -54px;
   }
@@ -270,18 +261,6 @@ li:hover ul {
     text-align: center;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* main */
 
@@ -356,9 +335,7 @@ li:hover ul {
   flex-wrap: wrap;
   margin-top: 0;
   gap: 20px;
-
 }
-
 
 .info__news_item {
   max-width: 280px;
@@ -375,14 +352,11 @@ li:hover ul {
   margin-top: 0;
 }
 
-
-
 @media screen and (max-width: 470px) {
   .info {
     flex-wrap: wrap;
   }
 }
-
 
 /* catalog */
 
@@ -395,7 +369,6 @@ li:hover ul {
   margin-bottom: 20px;
   justify-content: space-between;
   box-sizing: border-box;
-
 }
 
 .catalog__info {
@@ -412,7 +385,6 @@ li:hover ul {
   font-size: 30px;
   border-bottom: 4px solid #4682b4;
   color: #4682b4;
-
 }
 
 .catalog__link {
@@ -424,12 +396,10 @@ li:hover ul {
 }
 
 .catalog__text {
-
   text-align: justify;
 }
 
 .catalog__photo {
-
   margin-top: 70px;
   object-fit: cover;
   margin-left: 20px;
@@ -449,12 +419,9 @@ li:hover ul {
 
 @media screen and (max-width: 450px) {
   .catalog__text {
-    max-width: 300px;
-
-    
+    max-width: 300px;    
   }
 }
-
 
 /* exhibitions */
 
@@ -477,14 +444,11 @@ li:hover ul {
   font-size: 30px;
   border-bottom: 4px solid #4682b4;
   color: #4682b4;
-
 }
 
 .exhibitions__link {
   text-decoration: none;
 }
-
-
 
 .exhibitions__items {
   display: flex;
@@ -542,9 +506,7 @@ li:hover ul {
   font-weight: 400;
   font-size: 20px;
   list-style: none;
-
 }
-
 
 /* resource */
 
@@ -571,7 +533,6 @@ li:hover ul {
 .resource__learn_teacher {
   display: block;
   padding-right: 30px;
-
 }
 
 .resource__learn_students {
@@ -579,9 +540,7 @@ li:hover ul {
   padding-left: 20px;
   padding-right: 10px;
   margin-right: 10px;
-
 }
-
 
 .resource__heading_teacher {
   padding-top: 0;
@@ -655,10 +614,6 @@ li:hover ul {
   }
 }
 
-
-
-
-
 /* usefool-links */
 
 .usefool-links {
@@ -668,7 +623,6 @@ li:hover ul {
   margin: 0 auto;
   margin-right: 10px;
   margin-bottom: 40px;
-
 }
 
 .usefool-links__heading {
@@ -739,7 +693,6 @@ li:hover ul {
   font-size: 30px;
   border-bottom: 4px solid #4682b4;
   color: #4682b4;
-
 }
 
 .logotipes__items {
@@ -768,28 +721,24 @@ li:hover ul {
   margin: 0 auto;
  }
 
-.newbooks__heading {
-  
+.newbooks__heading {  
   display: block;
   max-width: 300px;  
   font-family: 'Open Sans';
   font-weight: 800;
   font-size: 30px;
   color: #4682b4;
-  text-align: left;
-  
+  text-align: left;  
 }
 
-.newbooks__heading-2 {
- 
+.newbooks__heading-2 { 
   display: block;
   max-width: 300px;  
   font-family: 'Open Sans';
   font-weight: 800;
   font-size: 25px;
   color: #4682b4;
-  text-align: left;
-  
+  text-align: left;  
 }
 
 .newbooks__heading-3 {
@@ -801,8 +750,6 @@ li:hover ul {
   font-size: 20px;
   color: #000;
   text-align: left;
-  
-
 }
 
 
@@ -815,8 +762,17 @@ li:hover ul {
   padding-top: 20px;
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 60px;
-  
+  margin-bottom: 60px;  
+}
+
+.newbook {
+  width: 200px;
+  height: 287px;
+}
+
+.newbook_hover {
+  width: 300px;
+  height: 430px;
 }
 
 .newbooks__item span {
@@ -854,8 +810,7 @@ li:hover ul {
 
   .newbooks__headings {
     margin-right: 0;
-  }
-  
+  }  
 }
 
 @media screen and (max-width: 600px) {
@@ -863,12 +818,8 @@ li:hover ul {
   .newbooks__headings {
     max-width: 150px;
     margin-right: 10px;
-
-  }
-  
+  }  
 }
-
-
 
 @media screen and (max-width: 550px) {
 
@@ -893,16 +844,13 @@ li:hover ul {
   }  
 }
 
-
-
 /* library */
 
 .about-library {
   background-image: url(../img/library/cream-1.jpg);
   margin: 20px;
   padding: 20px;
-  text-align: justify;
-  
+  text-align: justify;  
 }
 
 .about-library__text {
@@ -910,14 +858,12 @@ li:hover ul {
   font-weight: 400;
   font-size: 20px;
   list-style: none;
-
 }
 
 .img_lib-left {
   float: left;
   margin: 20px;
   margin-left: 0;
-
 }
 
 .img_lib-right {
@@ -929,9 +875,7 @@ li:hover ul {
   .about-library {
     margin: 10px;
   padding: 10px;
-  }
-
-  
+  }  
 }
 
 /* present */
@@ -956,7 +900,6 @@ li:hover ul {
 }
 
 .vystavki__items {
-
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -974,12 +917,11 @@ li:hover ul {
   flex-wrap: wrap;
   gap: 15px;
   margin: 40px;
-
 }
+
 .cont {
   width: 300px;
-  background-color: ;
-}
+  }
 
 .conferenсe {
   margin: 0 auto;
@@ -993,9 +935,6 @@ li:hover ul {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
-
-
-
 }
 
 .conferenсe__text {
@@ -1017,12 +956,10 @@ li:hover ul {
   text-transform: uppercase;
   color: #084374;
   list-style: none;
-
 }
 
 .conferenсe__link {
   text-decoration: none;
-
 }
 
 /* history */
@@ -1044,16 +981,13 @@ li:hover ul {
 .history__heading {
   display: block;
   margin: 0 auto;
-  max-width: 380px;
-  
-  
+  max-width: 380px;  
   font-family: 'Open Sans';
   font-weight: 800;
   font-size: 30px;
   word-break: break-all; 
   text-transform: uppercase;
   color: #4682b4;
-
 }
 
 
@@ -1091,7 +1025,6 @@ li:hover ul {
   font-weight: 600;
   color: #fff;
   margin-bottom: 20px;
-
 }
 
 .history__link {
@@ -1109,15 +1042,11 @@ li:hover ul {
   margin-bottom: 20px;
 }
 
-
-
 .roules__border {
   border: 0px none #000000;
   background-image: url(http://img-fotki.yandex.ru/get/5006/nata-komiati.8f/0_5da69_8b4ee1ca_S.jpg);
   width: 97%;
 }
-
-
 
 .roules__border-1 {
   border: 0px none #000000;
@@ -1129,7 +1058,6 @@ li:hover ul {
   border: 0px none #000000;
   background-image: url(http://s46.radikal.ru/i114/0812/af/24b2abecead4.gif);
   width: 93%;
-
 }
 
 
@@ -1143,7 +1071,6 @@ li:hover ul {
   background-image: url(http://img-fotki.yandex.ru/get/5006/nata-komiati.8f/0_5da69_8b4ee1ca_S.jpg);
   width: 90%;
 }
-
 
 .roules__border-5 {
   border: 0px none #000000;
@@ -1242,7 +1169,6 @@ li:hover ul {
   color: #4682b4;
 }
 
-
 .structute__title {
   margin-top: 20px;
   margin-bottom: 0;
@@ -1273,8 +1199,6 @@ li:hover ul {
     padding: 50px;
   }  
 }
-
-
 
 /* contacts */
 
