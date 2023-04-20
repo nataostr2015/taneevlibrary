@@ -1,4 +1,4 @@
-/* open-sans-regular - latin */
+/* open-sans-regularlatin */
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -18,7 +18,7 @@
   /* Legacy iOS */
 }
 
-/* open-sans-700 - latin */
+/* open-sans-700latin */
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -38,7 +38,7 @@
   /* Legacy iOS */
 }
 
-/* open-sans-800 - latin */
+/* open-sans-800latin */
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -58,7 +58,7 @@
   /* Legacy iOS */
 }
 
-/* open-sans-700italic - latin */
+/* open-sans-700italiclatin */
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
@@ -78,7 +78,7 @@
   /* Legacy iOS */
 }
 
-/* open-sans-800italic - latin */
+/* open-sans-800italiclatin */
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
@@ -540,6 +540,10 @@ li:hover ul {
   padding-left: 20px;
   padding-right: 10px;
   margin-right: 10px;
+ }
+
+.resource__heading_link {
+  text-decoration: none;
 }
 
 .resource__heading_teacher {
@@ -706,6 +710,54 @@ li:hover ul {
 .logo-ipr {
   max-width: 250px;
 }
+
+/* students */
+
+.students {
+  max-width: 1000px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  
+  
+  }
+
+.students__items {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  margin-left: 140px;
+  
+}
+
+.students__item {
+  border: 3px solid #4682b4;
+  border-radius: 10px;
+  width: 80%;
+  padding: 2px 0px;
+  background: none 0% 0% repeat scroll #4682b4;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.students__link {
+  font-family: 'Open Sans';
+  font-size: 18px; color:#fff;
+  text-decoration: none;
+}
+
+.books-list {
+  max-width: 1000px;
+  background-color: #cde3f3;
+  padding: 20px;
+}
+
+.book__item {
+  text-align: justify;
+  font-size: 13.5pt; font-family: 'Open Sans';
+  color: #333333;
+}
+
+
 
 /* newbooks */
 
