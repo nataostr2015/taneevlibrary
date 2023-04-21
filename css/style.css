@@ -481,6 +481,10 @@ li:hover ul {
   color: #fff;
 }
 
+.exhibition__link {
+  text-decoration: none;
+}
+
 .rachmaninov {
   max-width: 1000px;
 }
@@ -716,20 +720,17 @@ li:hover ul {
 .students {
   max-width: 1000px;
   background-color: #f0f8ff;
-  padding: 20px;
-  
-  
+  padding: 20px;  
   }
 
 .students__items {
   display: block;
   margin: auto;
   padding: 20px;
-  margin-left: 140px;
-  
-}
+  }
 
 .students__item {
+  margin: 0 auto;
   border: 3px solid #4682b4;
   border-radius: 10px;
   width: 80%;
@@ -743,6 +744,7 @@ li:hover ul {
   font-family: 'Open Sans';
   font-size: 18px; color:#fff;
   text-decoration: none;
+  padding: 10px;
 }
 
 .books-list {
@@ -757,14 +759,38 @@ li:hover ul {
   color: #333333;
 }
 
+.taecher__heading {
+  display: flex;
+  max-width: 300px;
+  margin-left: 6px;
+  padding-bottom: 20px;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 30px;
+  border-bottom: 4px solid #4682b4;
+  color: #4682b4;
+}
 
+.teachers__link {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color: #4682b4;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.teacher__text {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color: #4682b4;
+ }
 
 /* newbooks */
 
 .newbooks {
   max-width: 1300px;
   margin: 0 auto;
-  margin-bottom: 280px;
+  margin-bottom: 200px;
   background-color: #c9ced3;
 }
 
@@ -793,8 +819,7 @@ li:hover ul {
   text-align: left;  
 }
 
-.newbooks__heading-3 {
-  
+.newbooks__heading-3 {  
   display: block;
   max-width: 300px;  
   font-family: 'Open Sans';
@@ -802,6 +827,19 @@ li:hover ul {
   font-size: 20px;
   color: #000;
   text-align: left;
+}
+
+.newbooks2022__heading {  
+  display: block;
+  max-width: 300px;  
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 30px;
+  color: #4682b4;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;  
+  text-decoration: none;
 }
 
 
@@ -814,7 +852,7 @@ li:hover ul {
   padding-top: 20px;
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 60px;  
+  margin-bottom: 60px;    
 }
 
 .newbook {
@@ -856,6 +894,21 @@ li:hover ul {
   padding-left: 20px; 
   padding-right: 10px;
   z-index: 1;  
+}
+
+.newbooks2022 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tooltip span{
+  visibility: hidden;
+  position: absolute;
+  left: 30px;
+}
+
+.tooltip:hover span{
+visibility: visible;
 }
 
 @media screen and (max-width: 1000px) {
