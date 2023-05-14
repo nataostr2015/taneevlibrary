@@ -730,7 +730,6 @@ li:hover ul {
   font-family: 'Open Sans';
   font-size: 20px;
   color: #000;
-
 }
 
 /* logotipes */
@@ -1482,6 +1481,204 @@ margin-bottom: 0;
   font-size: 20px;  
 }
 
+/* rusarchiv */
+
+.rusarchiv__header {
+  width: 100%;
+}
+
+.rusarchiv__banner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.rusarchiv__logo {
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 20px;
+
+}
+
+.rusarchiv__title {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 40px;
+  color: #947e48;
+  margin-bottom: 20px;  
+}
+
+.rusarchiv__nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #947e48;
+  min-height: 80px;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.rusarchiv-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  
+}
+
+.rusarchiv-menu-item {
+  list-style: none;
+  text-align: center;
+  margin-top: 15px;
+   
+}
+
+.rusarchiv__link {
+  font-family: 'open Sans';
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #947e48;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;  
+  }
+
+.rusarchiv__link-active {
+  color: #947e48;
+  background-color: #fff;  
+  text-decoration: none;
+  }
+
+.rusarchiv__photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;  
+  }
+
+.rusarchiv__photo {
+  position: relative;  
+  object-fit: cover;
+  object-position: 0% 0%;
+  padding: 10px;
+}
+
+.rosarchiv__link1 {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;  
+  background-color: #e0dada;
+  bottom: 14px;
+  left: 10px;
+  color: #947e48;
+  font-family: 'open Sans';
+  font-weight: 600;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.rusarchiv__about {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 30px;
+  color: #656363;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rusarchiv__members {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  gap: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.rusarchiv__member {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.rusarchiv__member-name {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;  
+}
+
+.otchet__title {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.otchet22 {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #f1d793;
+}
+
+.otchet__text {
+  text-align: justify;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.otchet__link {
+  text-align: center;
+  font-size: 20px;
+}
+
+.sbornik {
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.sbornik22 { 
+  margin: 20px;
+}
+
+.rusarchiv__footer {
+  display: flex;
+  min-height: 70px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  justify-content: center;
+  text-align: center;
+  background-color: #947e48;
+  box-sizing: border-box;
+
+}
+
+
+
+
+
+
 .footer {
   display: flex;
   min-height: 70px;
@@ -1493,6 +1690,9 @@ margin-bottom: 0;
   background-color: #4682b4;
   box-sizing: border-box;
 }
+
+
+
 
 .footer__text {
   font-family: 'Open Sans';
