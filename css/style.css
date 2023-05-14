@@ -1603,8 +1603,8 @@ margin-bottom: 0;
   flex-wrap: wrap;
   max-width: 1300px;
   gap: 15px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 auto;
+  
   padding: 20px;
   justify-content: center;
 }
