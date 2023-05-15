@@ -1601,7 +1601,7 @@ margin-bottom: 0;
 .rusarchiv__members {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1300px;
+  max-width: 1000px;
   gap: 15px;
   margin: 0 auto;
   
