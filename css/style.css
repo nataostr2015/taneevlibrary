@@ -274,6 +274,17 @@ li:hover ul {
   box-sizing: border-box;
 }
 
+.main1 {
+  width: 100%;
+  min-width: 350px;
+  margin: 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  box-sizing: border-box;
+}
+
+
 /* info */
 
 .info {
@@ -1346,20 +1357,20 @@ visibility: visible;
 /* structure */
 
 .structure-wrapper {
-  max-width: 1300px;
+  max-width: 100%x;
   background-image: url(../img/library-image.jpg);
-  padding: 200px;
-  padding-top: 20px;
+  margin: 0;  
+  padding-top: 40px;  
 }
 
 .structure {
   max-width: 600px;
   text-align: justify;
-  margin-left: 0;
   padding: 30px;
   margin-top: 50px;  
   background-color: #FFEBCD;
   box-shadow: 0 0 20px 20px #FFEBCD;
+  margin: 0 auto;
   }
 
 .structure__heading {
@@ -1661,6 +1672,120 @@ margin-bottom: 0;
   margin: 20px;
 }
 
+.sb22 {
+  max-width: 1000px;
+  background-color: #f3ecdb;
+  padding: 20px;
+}
+
+.sb2-img {
+  width: 500px;
+}
+
+.sbornik__title {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 20px;
+  text-align: justify;  
+}
+
+.wrapper {	  
+  margin: 0 auto;
+  overflow: hidden;	
+  width: 500px;
+  height: 750px;
+  margin-top: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .7);           
+        }
+
+.wrapper > input {
+  display: none;
+        }
+
+ .wrapper .controls {	
+  position: absolute;
+        }
+
+.wrapper label {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin: 25px 12px 0 15px;
+  left: 180px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;	
+        }
+
+.wrapper label:hover, 
+  #img1:checked ~ .controls label:nth-of-type(1),
+  #img2:checked ~ .controls label:nth-of-type(2),
+  #img3:checked ~ .controls label:nth-of-type(3){
+  background: #0640b3;
+        }
+
+  .wrapper label:after {
+    border: 2px solid #191970;
+    content: " ";
+    display: block;
+    width: 15px;
+    height: 15px;
+    left: -4px;
+    position: absolute;
+    top: -4px;	
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;	
+        }
+
+  .slider {            
+    width: inherit;	
+    height: inherit;
+    overflow: hidden;
+    position: relative;	
+        }
+  .images {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    opacity: 0;	
+    z-index: 0;	
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);	
+    transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+    -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+    -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+    -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;	
+        } 
+    .img1 { background-image: url(images/img3.jpg); }
+    .img2 { background-image: url(images/img3.jpg); }
+    .img3 { background-image: url(images/img3.jpg); }
+               
+        
+    #img1:checked ~ .slider > .img1,
+    #img2:checked ~ .slider > .img2,
+    #img3:checked ~ .slider > .img3{
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);	
+        }
+
+  
+        
+
+
+
 .rusarchiv__footer {
   display: flex;
   min-height: 70px;
@@ -1671,7 +1796,20 @@ margin-bottom: 0;
   text-align: center;
   background-color: #947e48;
   box-sizing: border-box;
+}
 
+@media screen and (max-width: 550px) {
+  .wrapper {
+    width: 300px;
+    height: 450px;
+  }
+  .sb2-img {
+    width: 300px;
+  }
+
+  .wrapper label {
+    left: 80px;
+  }
 }
 
 
