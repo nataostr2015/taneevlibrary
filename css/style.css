@@ -1073,19 +1073,19 @@ visibility: visible;
   list-style: none;
 }
 
-.img_lib-left {
+.lib-left {
   float: left;
   margin: 20px;
   margin-left: 0;
 }
 
-.img_lib-right {
+.lib-right {
   float: right;
   margin: 20px;
   margin-right: 0;
 }
 @media screen and (max-width: 450px) {
-  .about-library {
+  .about- library {
     margin: 10px;
   padding: 10px;
   }  
@@ -1357,7 +1357,7 @@ visibility: visible;
 /* structure */
 
 .structure-wrapper {
-  max-width: 100%x;
+  max-width: 100%;
   background-image: url(../img/library-image.jpg);
   margin: 0;  
   padding-top: 40px;  
@@ -1464,7 +1464,7 @@ visibility: visible;
 .name__text {
   text-align: justify;
   font-family: 'Open Sans';
-  font-size: 18pxt;
+  font-size: 18px;
 }
 
 .name__text-i {  
@@ -1509,15 +1509,19 @@ margin-bottom: 0;
   width: 20%;
   margin-top: 30px;
   margin-left: 20px;
+  text-align: left;
 
 }
 
-.rusarchiv__title {
+.rusarchiv__title {  
   font-family: 'Open Sans';
   font-weight: 800;
   font-size: 40px;
   color: #947e48;
-  margin-bottom: 20px;  
+  margin-bottom: 20px; 
+  margin-left: 50px;
+  text-align: center;
+   
 }
 
 .rusarchiv__nav {
