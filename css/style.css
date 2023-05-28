@@ -525,6 +525,20 @@ li:hover ul {
   max-width: 100%;
 }
 
+.rachmaninov-xx {
+  max-width: 1000px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.rachm-books {
+  max-width: 1000px;
+  justify-content: center;
+  text-align: center;
+  
+ 
+}
+
 .exhibition__text {
   text-align: justify;
   font-family: 'Open Sans';
@@ -877,6 +891,7 @@ li:hover ul {
   font-weight: 800;
   font-size: 30px;
   color: #4682b4;
+  padding-top: 10px;
   text-align: left;  
 }
 
@@ -967,10 +982,17 @@ li:hover ul {
   z-index: 1;  
 }
 
+.book14 {
+  padding: 10px;
+}
+
 .newbooks2022 {
   max-width: 1200px;
   margin: 0 auto; 
   padding-right: 0; 
+  background-color: #c9ced3;
+  padding: 20px;
+  text-align: center;
 }
 
 .newbooks2022__h1 {
@@ -979,7 +1001,7 @@ li:hover ul {
   font-size: 30px;
   color: #4682b4;
   margin-top: 20px;
-  justify-content: left;
+  text-align: center;
   margin-left: 0;  
 }
 
@@ -989,7 +1011,6 @@ li:hover ul {
   font-size: 20px;
   color: #4682b4;
   margin-top: 20px;
-  justify-content: left;
   margin-left: 0;  
 }
 
@@ -1001,6 +1022,19 @@ li:hover ul {
   margin-top: 20px;
   justify-content: left;
   margin-left: 0; 
+}
+
+.collect-ch {
+  width: 100%;
+}
+
+.present14 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.bigbook {
+  max-width: 50%;
 }
 
 .tooltip span{
@@ -1052,6 +1086,7 @@ visibility: visible;
   } 
   
   .tooltip {
+    margin: 0 auto;
     padding-left: 20px;
     justify-content: center;
   }
@@ -1440,11 +1475,18 @@ visibility: visible;
 }
 
 .public-item {
-  max-width: 1000px;
-  width: 100%;
-  padding: 30px;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+
+}
+
+.public-items {
+  margin: 0 auto;
+  width: 95%;
+  padding: 20px;
   padding-bottom: 50px;
-  background-color: #efe9cc;
+  background-color: #f1f0eb;
   
 }
 
@@ -1453,17 +1495,18 @@ visibility: visible;
   font-weight: 800;
   font-size: 30px;
   color: #4682b4;
+  text-align: left;
 }
 
 .name__about { 
   text-align: justify;
-  font-size: 20px; font-family: 'Open Sans';
+  font-size: 20px; font-family: 'Times New Roman', Times, serif;
   color:#000;
 }
 
 .name__text {
   text-align: justify;
-  font-family: 'Open Sans';
+  font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
 }
 
@@ -1687,7 +1730,8 @@ margin-bottom: 0;
 }
 
 .sbornik__title {
-  font-family: 'Open Sans';
+  max-width: 800px;
+  font-family: 'Times New Roman';
   font-weight: 800;
   font-size: 20px;
   color: #000;
