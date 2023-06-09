@@ -719,9 +719,12 @@ li:hover ul {
   width: 70%;
   font-family: 'Open Sans';
   font-size: 20px;
-  font-weight: 400; 
-  
+  font-weight: 400;   
   text-align: justify;
+}
+
+.eresource__link {
+  text-decoration: none;
 }
 
 .logo-mgk {
