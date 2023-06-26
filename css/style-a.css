@@ -439,7 +439,7 @@ li:hover ul {
     box-shadow: 1px 1px 3px #000;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 798px) {
     .agaz__photo {
         width: 280px;
     }
