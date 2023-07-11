@@ -340,9 +340,16 @@ li:hover ul {
   padding-bottom: 20px;
 }
 
+.info__news_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .info__news_items {
   max-width: 600px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin-top: 0;
   gap: 20px;
@@ -550,10 +557,6 @@ li:hover ul {
   border: #947e48 solid 2px;
 }
 
-
-
-
-
 .rachmaninov {
   max-width: 1000px;
 }
@@ -752,8 +755,7 @@ li:hover ul {
 
 @media screen and (max-width: 650px) {
   .partner {
-    gap: 20px;
-    
+    gap: 20px;    
   }
 }
 
@@ -770,9 +772,22 @@ li:hover ul {
   }
 }
 
+
 @media screen and (max-width: 800px) {
   .resorce__cataloge {
     flex-wrap: wrap;
+  }
+  .eresource__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .eresource__title {
+    font-size: 13px;
+  }
+  .eresource {
+    width: 100%;
   }
 }
 
@@ -1749,7 +1764,7 @@ margin-bottom: 0;
   padding: 10px;
 }
 
-.rosarchiv__link1 {
+.rusarchiv__link1 {
   position: absolute;
   width: 200px;
   height: 40px;
@@ -2135,18 +2150,276 @@ margin-bottom: 0;
     }
   }
 
+  /* taneev */
+
+  .taneev {
+    background-image: url(../img/phone7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+
+  .taneev__main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .taneev__portret {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 40px;
+  }
+
+.taneev__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.taneev__item {
+padding-top: 20px;
+padding-right: 20px;
+list-style: none;
+}
+
+.taneev__link {
+  font-family: 'Monotype Corsiva';
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+  text-decoration: none;
+}
+
+.taneev__text {
+  font-family: 'Open Sans';
+  font-size: 25px;
+  text-align: justify;
+  color: #fff;
+}
+
+.taneev-art {
+  background-image: url(../img/phone13.jpg);
+  padding-top: 20px;
+}
+
+.taneev1 {
+  margin: 0 auto;
+  max-width: 800px;
+  min-height: 540px;
+  background-image: url(../img/rama6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.taneev__main1 {
+  max-width: 550px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.taneev__main2 {
+  max-width: 1000px;
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+.article-item {
+  font-family: 'Open Sans';
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  }
+
+  .article-item1 {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    }
+
+    .article-item2 {
+      font-family: 'Open Sans';
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.5;
+      }
+
+  .articles-menu {
+    margin-right: 20px;
+  }
+
+.article-link {
+  text-decoration: none;
+}
+
+.taneev__heading {
+  text-align: center;
+}
+
+.article-text {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  text-align: justify;
+}
+
+.ucheniki {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  height: auto;
+}
+
+.tan-chor {
+  padding: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  table.chore thead {
+    display: none;
+  }
+  table.chore tr {
+    display: block;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e8e9eb;
+  }
+  table.chore td {
+    display: block;
+    text-align: right;
+  }
+  table.chore td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+
+}
 
 
 
 
 
+@media screen and (max-width: 850px) {
+.taneev1 {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .taneev__portret {
+    width: 300px;
+  }  
+}
+
+@media screen and (max-width: 500px) {
+  .img-small {
+      width: 300px;
+      }  
+  }
+
+.wrapper1 {	
+  margin: 0 auto;
+  overflow: hidden;	
+  width: 500px;
+  height: 1040px;
+  margin-top: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+  -o-box-shadow: 0 0 20px rgba(0, 0, 0, .7);	
+}
+.wrapper1 > input {
+  display: none;
+}
+.wrapper1 .controls {	
+  position: absolute;
+}
+.wrapper1 label {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin: 25px 12px 0 15px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;	
+}
+.wrapper1 label:hover, 
+#img1:checked ~ .controls label:nth-of-type(1),
+#img2:checked ~ .controls label:nth-of-type(2),
+#img3:checked ~ .controls label:nth-of-type(3),
+#img4:checked ~ .controls label:nth-of-type(4),
+#img5:checked ~ .controls label:nth-of-type(5),
+#img6:checked ~ .controls label:nth-of-type(6),
+#img7:checked ~ .controls label:nth-of-type(7) {
+  background: #0640b3;
+}
+.wrapper1 label:after {
+  border: 2px solid #191970;
+  content: " ";
+  display: block;
+  width: 15px;
+  height: 15px;
+  left: -4px;
+  position: absolute;
+  top: -4px;	
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;	
+}
+.slider {
+  background-color: #fffacd;
+  width: inherit;	
+  height: inherit;
+  overflow: hidden;
+  position: relative;	
+}
+.images {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  opacity: 0;	
+  z-index: 0;	
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);	
+  transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;	
+} 
+.img1 { background-image: url(images/img3.jpg); }
+.img2 { background-image: url(images/img3.jpg); }
+.img3 { background-image: url(images/img3.jpg); }
+.img4 { background-image: url(images/img4.jpg); }
+.img5 { background-image: url(images/img5.jpg); }
+.img6 { background-image: url(images/img6.jpg); }
 
 
-
-
-
-
-
+#img1:checked ~ .slider > .img1,
+#img2:checked ~ .slider > .img2,
+#img3:checked ~ .slider > .img3,
+#img4:checked ~ .slider > .img4,
+#img5:checked ~ .slider > .img5,
+#img6:checked ~ .slider > .img6{
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);	
+}
 
 
 
