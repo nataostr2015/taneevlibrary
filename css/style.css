@@ -284,7 +284,6 @@ li:hover ul {
   box-sizing: border-box;
 }
 
-
 /* info */
 
 .info {
@@ -436,7 +435,7 @@ li:hover ul {
 
 .catalog__picture {
   width: 650px;
-  height: 300px;
+  height: 400px;
 }
 
 @media screen and (max-width: 800px) {
@@ -448,6 +447,12 @@ li:hover ul {
 @media screen and (max-width: 450px) {
   .catalog__text {
     max-width: 300px;    
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .small-photo {
+    max-width: 260px;    
   }
 }
 
@@ -482,8 +487,6 @@ li:hover ul {
   text-decoration: none;
 }
 
-
-
 .exhibitions__item1 {
   display: flex;
   width: 250px;
@@ -504,7 +507,6 @@ li:hover ul {
   font-weight: 600;
   color: #fff;
 }
-
 
 .exhibitions {  
  margin-top: 20px;
@@ -772,7 +774,6 @@ li:hover ul {
   }
 }
 
-
 @media screen and (max-width: 800px) {
   .resorce__cataloge {
     flex-wrap: wrap;
@@ -799,8 +800,7 @@ li:hover ul {
   padding-left: 20px;
   margin: 0 auto;
   margin-right: 10px;
-  margin-bottom: 40px;
-  
+  margin-bottom: 40px;  
 }
 
 .usefool-links__heading {
@@ -850,7 +850,6 @@ li:hover ul {
   border-radius: 10px;
   width: 290px;
   height: 300px;
-
 }
 
 .usefool-links__title {
@@ -865,12 +864,14 @@ li:hover ul {
   padding-right: 10px;
   font-family: 'Open Sans';
   font-weight: 600;
-  color: #fff;
-  
+  color: #fff;  
+}
+
+.usefool-links__lib {text-decoration: none;
+  font-size: 20px;
 }
 
 .usefool-links__journal {text-decoration: none;
-
 }
 
 .journals__link {
@@ -926,33 +927,40 @@ li:hover ul {
 /* students */
 
 .students {
-  max-width: 1000px;
-  background-color: #f0f8ff;
+  max-width: 1300px;
   padding: 20px;  
-  }
-
-.students__items {
-  display: block;
-  margin: auto;
-  padding: 20px;
-  }
-
-.students__item {
   margin: 0 auto;
-  border: 3px solid #4682b4;
-  border-radius: 10px;
-  width: 80%;
-  padding: 2px 0px;
-  background: none 0% 0% repeat scroll #4682b4;
-  margin-bottom: 20px;
-  text-align: center;
-}
+  }
+
+ .students__item {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   margin: 30px;
+   justify-content: first baseline;
+    }
+
+ .student__heading {       padding-top: 10px;
+  text-align: justify;
+    padding-left: 50px;
+       }
 
 .students__link {
   font-family: 'Open Sans';
-  font-size: 18px; color:#fff;
-  text-decoration: none;
-  padding: 10px;
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;  
+}
+
+.zapis {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  color: #000;
+}
+
+.zapis__item {
+  padding-left: 50px;
+  padding-top: 30px;
 }
 
 .books-list {
@@ -973,31 +981,52 @@ li:hover ul {
   color: #333333;
 }
 
-.taecher__heading {
+.taacher__heading {
   display: flex;
   max-width: 400px;
-  margin-left: 6px;
+  margin: 0 auto;  
   padding-bottom: 20px;
   font-family: 'Open Sans';
   font-weight: 800;
   font-size: 30px;
   border-bottom: 4px solid #4682b4;
-  color: #4682b4;
+  color: #000;
 }
 
 .teachers__link {
   font-family: 'Open Sans';
   font-size: 18px;
-  color: #4682b4;
+  color: #000;
   text-decoration: none;
   padding: 10px;
 }
 
 .teacher__text {
+  max-width: 400px;
   font-family: 'Open Sans';
   font-size: 18px;
-  color: #4682b4;
+  color:#000;
+  margin: 0 auto;
+  padding-top: 20px;  
  }
+
+ @media screen and (max-width: 450px) {
+  .zapis__item {
+    margin: 0;
+  }
+  .zapis__item {
+    padding-left: 0;
+  }
+  .students1 {
+    padding: 0;
+  }
+  .student__heading {
+    padding: 0;
+  }
+  .students__link {
+    font-size: 20px;
+  }
+}
 
 /* newbooks */
 
@@ -1056,7 +1085,6 @@ li:hover ul {
   text-align: center;  
   text-decoration: none;
 }
-
 
 .newbooks__items {
   display: flex;
@@ -1169,8 +1197,7 @@ li:hover ul {
 .tooltip span{
   visibility: hidden;
   position: absolute;
-  left: 30px;
-  
+  left: 30px;  
 }
 
 .tooltip:hover span{
@@ -1203,13 +1230,10 @@ visibility: visible;
   .newbooks__heading-3 {
     padding-left: 20px;
   }
-
   .newbooks__items {
     padding-left: 20px;
     justify-content: center;
   }
-
-
   .newbooks__item:hover {
     margin-bottom: 300px;
   } 
@@ -1367,7 +1391,6 @@ visibility: visible;
   color: #4682b4;
 }
 
-
 .history__items {
   margin: 0 auto;
   margin-top: 29px;
@@ -1376,8 +1399,6 @@ visibility: visible;
   display: flex;
   flex-wrap: wrap;
   background-color:#4682b4; 
-  
-
 }
 
 .history__item {
@@ -1430,13 +1451,11 @@ visibility: visible;
   background-image: url(http:/img-fotki.yandex.ru/get/6515/128617080.160/0_99664_a3c4e07b_S.jpg);
   }
 
-
 .roules__border-2 {
   border: 0px none #000000;
   background-image: url(http:/s46.radikal.ru/i114/0812/af/24b2abecead4.gif);
   width: 93%;
 }
-
 
 .roules__border-3 {
   border: 0px none #000000;
@@ -1570,10 +1589,6 @@ visibility: visible;
   padding-right: 50px;
 }
 
-.structure__item {
- 
-}
-
 .structure__about {
   font-family: 'Open Sans';
   font-weight: 400;
@@ -1591,24 +1606,38 @@ visibility: visible;
 
 /* publication */
 .public {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 26pt; 
-  font-family: 'Monotype Corsiva'; 
-  color: #4682b4;
-  
+  display: flex;  
+  text-align: left;
+  gap: 100px;
+  margin-top: 5px;  
+  }
+
+.public-image {
+  width: 60%;
+  background-image: url(../img/books-books-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.public-heading {
+  margin-top: 200px;
+  color: #000;
+  font-family: 'Open Sans';
+  font-size: 40px;
+  text-align: center;
+}
+
+.public-names {
+  width: 40%;
+  margin-top: 40px;  
+  }
 
 .public__link {
   text-decoration: none;
-  color: #4682b4;
-}
-
-.public-item {
-  margin: 0 auto;
-  max-width: 600px;
-  text-align: center;
-
+  font-size: 20px; 
+  font-family: 'Open Sans';
+  color: #000;
+  text-align: left;
 }
 
 .public-items {
@@ -1616,8 +1645,15 @@ visibility: visible;
   width: 95%;
   padding: 20px;
   padding-bottom: 50px;
+  background-image: url(../img/books-books-light.jpg);  
+}
+
+.public-item { 
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
   background-color: #f1f0eb;
-  
+  padding: 20px;
 }
 
 .name {
@@ -1625,12 +1661,13 @@ visibility: visible;
   font-weight: 800;
   font-size: 30px;
   color: #4682b4;
-  text-align: left;
+  text-align: left;  
 }
 
 .name__about { 
   text-align: justify;
-  font-size: 20px; font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
   color:#000;
 }
 
@@ -1646,21 +1683,28 @@ visibility: visible;
 
 .name__text-blue {
   color: #0e89ee;
-
-
-
 }
 
 /* contacts */
 
+.main3 {
+  width: 100%;
+  background-image: url(../img/scale_1200b.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
 .contacts {
   max-width: 500px;
-  text-align: left;  
-}
+  margin: 0 auto;
+  text-align: left; 
+  margin-bottom: 20px;
+  }
 
 .contacts__heading {
   font-family: 'Open Sans';
-  font-weight: 400;
+  font-weight: 800;
   font-size: 30px;
 }
 
@@ -1668,7 +1712,7 @@ visibility: visible;
   margin-top: 0;
 margin-bottom: 0;
   font-family: 'Open Sans';
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;  
 }
 
@@ -1682,7 +1726,6 @@ margin-bottom: 0;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .rusarchiv__logo {
@@ -1690,7 +1733,6 @@ margin-bottom: 0;
   margin-top: 30px;
   margin-left: 20px;
   text-align: left;
-
 }
 
 .rusarchiv__title {  
@@ -1700,8 +1742,7 @@ margin-bottom: 0;
   color: #947e48;
   margin-bottom: 20px; 
   margin-left: 50px;
-  text-align: center;
-   
+  text-align: center;   
 }
 
 .rusarchiv__nav {
@@ -1719,15 +1760,13 @@ margin-bottom: 0;
 .rusarchiv-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 60px;
-  
+  gap: 60px;  
 }
 
 .rusarchiv-menu-item {
   list-style: none;
   text-align: center;
-  margin-top: 15px;
-   
+  margin-top: 15px;   
 }
 
 .rusarchiv__link {
@@ -1798,8 +1837,7 @@ margin-bottom: 0;
   flex-wrap: wrap;
   max-width: 1000px;
   gap: 15px;
-  margin: 0 auto;
-  
+  margin: 0 auto;  
   padding: 20px;
   justify-content: center;
 }
@@ -1966,11 +2004,6 @@ margin-bottom: 0;
     -o-transform: scale(1);	
         }
 
-  
-        
-
-
-
 .rusarchiv__footer {
   display: flex;
   min-height: 70px;
@@ -1991,7 +2024,6 @@ margin-bottom: 0;
   .sb2-img {
     width: 300px;
   }
-
   .wrapper label {
     left: 80px;
   }
@@ -2011,8 +2043,7 @@ margin-bottom: 0;
 .tab1 {
   width: 100%;
   margin: 0 auto;
-  border: 6px groove rgb(213, 213, 213); background-image: url(http://img-fotki.yandex.ru/get/5625/137293384.57/0_9042c_4ad7f1e3_S.jpg);
-  
+  border: 6px groove rgb(213, 213, 213); background-image: url(http://img-fotki.yandex.ru/get/5625/137293384.57/0_9042c_4ad7f1e3_S.jpg);  
 }
 
 .td2 {
@@ -2021,8 +2052,7 @@ margin-bottom: 0;
 
 .tab2 {
   width: 100%;
-  border: 0px none rgb(0, 0, 0); background-image: url(http://s020.radikal.ru/i700/1504/55/e8ffdf654b42.gif); 
-  
+  border: 0px none rgb(0, 0, 0); background-image: url(http://s020.radikal.ru/i700/1504/55/e8ffdf654b42.gif);   
 }
 
 .td2 {
@@ -2031,14 +2061,12 @@ margin-bottom: 0;
 
 .tabl3 {
   width: 100%;
-  border: 0px none rgb(0, 0, 0); background-image: url(http://img-fotki.yandex.ru/get/5625/137293384.57/0_9042c_4ad7f1e3_S.jpg);
-  
+  border: 0px none rgb(0, 0, 0); background-image: url(http://img-fotki.yandex.ru/get/5625/137293384.57/0_9042c_4ad7f1e3_S.jpg);  
 }
 
 .tabl4 {
   width: 100%;
-  border: 6px groove rgb(0, 102, 153); background-image: url(http://img-fotki.yandex.ru/get/6439/37009792.7e/0_88983_8bcac4a_XL.gif);
-  
+  border: 6px groove rgb(0, 102, 153); background-image: url(http://img-fotki.yandex.ru/get/6439/37009792.7e/0_88983_8bcac4a_XL.gif);  
 }
 
 .td4 {
@@ -2124,27 +2152,21 @@ margin-bottom: 0;
     .tabl8 {
       display: block;
       }  
-
     .td1 {
       padding: 0;
     }
-
     .td2 {
       padding: 0;
     }
-
     .td4 {
       padding: 0;
     }
-
     .td5 {
       padding: 0;
     }
-
     .column1 {
       margin: 0 auto;
     }
-
     .column2 {
       margin: 0 auto;
     }
@@ -2155,8 +2177,7 @@ margin-bottom: 0;
   .taneev {
     background-image: url(../img/phone7.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-   
+    background-size: cover;   
   }
 
   .taneev__main {
@@ -2203,23 +2224,27 @@ list-style: none;
 }
 
 .taneev-art {
+  background-image: url(../img/taneev/kollage-3.jpg);
+  padding-top: 20px;
+  background-repeat: no-repeat;  
+}
+
+.taneev-art1 {
   background-image: url(../img/phone13.jpg);
   padding-top: 20px;
+  background-repeat: no-repeat; 
 }
 
 .taneev1 {
   margin: 0 auto;
   max-width: 800px;
-  min-height: 540px;
-  background-image: url(../img/rama6.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 540px;  
 }
 
 .taneev__main1 {
   max-width: 550px;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -2235,6 +2260,7 @@ list-style: none;
   font-size: 17px;
   font-weight: 600;
   line-height: 1.5;
+  list-style: none;
   }
 
   .article-item1 {
@@ -2242,6 +2268,7 @@ list-style: none;
     font-size: 30px;
     font-weight: 600;
     line-height: 1.5;
+    list-style: none;
     }
 
     .article-item2 {
@@ -2249,6 +2276,7 @@ list-style: none;
       font-size: 20px;
       font-weight: 600;
       line-height: 1.5;
+      list-style: none;
       }
 
   .articles-menu {
@@ -2257,7 +2285,11 @@ list-style: none;
 
 .article-link {
   text-decoration: none;
-}
+  font-family: 'Monotype corsiva';
+  font-size: 30px;
+  color: #000;
+  font-weight: 800;
+  }
 
 .taneev__heading {
   text-align: center;
@@ -2299,12 +2331,7 @@ list-style: none;
     float: left;
     font-weight: bold;
   }
-
 }
-
-
-
-
 
 @media screen and (max-width: 850px) {
 .taneev1 {
@@ -2421,21 +2448,6 @@ list-style: none;
   -o-transform: scale(1);	
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
   display: flex;
   min-height: 70px;
@@ -2447,9 +2459,6 @@ list-style: none;
   background-color: #4682b4;
   box-sizing: border-box;
 }
-
-
-
 
 .footer__text {
   font-family: 'Open Sans';
