@@ -618,6 +618,117 @@ li:hover ul {
   list-style: none;
 }
 
+.stravinsky {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.str-photo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.str-photo1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.str-text {
+  max-width: 500px;
+  font-size: 18pt; 
+  font-family: 'Monotype Corsiva'; 
+  color: #003300;
+}
+
+.str-text1 {
+  max-width: 400px;
+  font-size: 18pt; 
+  font-family: 'Monotype Corsiva'; 
+  color: #003300;
+}
+
+.remark {
+  font-family: 'Open Sans';
+  font-size: 15px;
+}
+
+.Window {
+  position: fixed;
+  top: -90px;
+  right: 0;
+  bottom: 30;
+  left: 0;
+  z-index: 99999;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  display: none;
+  pointer-events: none;
+}
+
+.Window:target {
+  display: block;
+  pointer-events: auto;
+}
+
+.Window>div {
+  width: 600px;
+  position: relative;
+  margin: 10% auto;
+  padding: 30px 10px 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 2px;
+}
+
+.close {
+  background: #fff;
+  color: #000;
+  line-height: 25px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+@media screen and (max-width: 798px) {
+  
+  .Window:target {
+      display: none;
+  } 
+  
+}
+
+@media screen and (max-width: 650px) {
+  
+  .img-small1 {
+    width: 300px;
+  } 
+  
+}
+
+
+
 /* resource */
 
 .resource {
@@ -2348,6 +2459,7 @@ list-style: none;
 @media screen and (max-width: 500px) {
   .img-small {
       width: 300px;
+      height: auto;
       }  
   }
 

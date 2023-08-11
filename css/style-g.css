@@ -566,6 +566,23 @@ input[type="checkbox"]:checked~.frame {
   font-size: 13px;
 }
 
+.gub__art {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  list-style: none;
+}
+
+.gub__art-link {
+  text-decoration: none;
+}
+
+.gub__konz {
+  margin-top: 0;
+  background: #fffacd;
+  }
+
 .block {
   width: 5%;
   height: 667px;
@@ -832,6 +849,13 @@ visibility: visible;
 @media screen and (max-width: 450px) {
   .photo-small {width: 300px;}
 }
+
+
+  
+
+
+
+
 
 .footer {
   display: flex;
