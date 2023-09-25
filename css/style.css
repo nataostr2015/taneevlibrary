@@ -366,6 +366,13 @@ li:hover ul {
   width: 40px;
 }
 
+.info__news_image1 {
+  
+  margin: 10px;
+  margin-top: 0;
+  
+}
+
 .info__news_text {
   margin-top: 0;
   font-family: 'Open Sans';
