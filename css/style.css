@@ -617,6 +617,55 @@ li:hover ul {
   align-self: center;
 }
 
+.panorama {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.panorama__heading {
+  padding-bottom: 20px;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 30px;
+  border-bottom: 4px solid #4682b4;
+  color: #4682b4;
+  justify-content: center;
+}
+
+.sample {
+    padding-top: 15px;
+}
+
+.intro-video {    
+    max-width: 551px;
+    width: 100%;
+    height: 356px;
+    object-fit: cover;
+    box-shadow: -2px -14px 73px rgba(0, 0, 0, 0.29);
+}
+
+.panorama-images {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  
+}
+
+.panorama-image {
+  padding: 20px;
+  width: 250px;
+}
+
+.panorama-picture {
+  margin-left: 30px;
+}
+
+.panorama-video {
+  margin-right: 20px;
+}
+
+
+
 .exhibition__text {
   text-align: justify;
   font-family: 'Open Sans';
